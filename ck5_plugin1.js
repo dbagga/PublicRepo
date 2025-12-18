@@ -8,7 +8,7 @@ class TestPlugin extends Qrk_Plugin {
             const button = new Qrk_ButtonView();
 
             button.set({
-                label: 'customButton',
+                label: 'Custom Button',
                 withText: true
             });
 
