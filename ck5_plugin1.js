@@ -5,7 +5,7 @@ class TestPlugin extends Qrk_Plugin {
         // to be displayed in the toolbar.
         editor.ui.componentFactory.add('customButton', () => {
             // The button will be an instance of ButtonView.
-            const button = new ButtonView();
+            const button = new Qrk_ButtonView();
 
             button.set({
                 label: 'customButton',
