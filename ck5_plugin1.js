@@ -17,7 +17,7 @@ class TestPlugin extends Qrk_Plugin {
                 const now = new Date();
 
                 // Change the model using the model writer.
-                editor.model.change((writer: ModelWriter) => {
+                editor.model.change((writer) => {
                     // Insert the text at the user's current position.
                     editor.model.insertContent(writer.createText(now.toString()));
                 });
