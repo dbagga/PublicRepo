@@ -32,6 +32,5 @@ class TestPlugin extends Qrk_Plugin {
   }
 };
 
-// Add into Qrk_Plugins and Qrk_Buttons to register and show in toolbar
+// Add into Qrk_Plugins to load into Editor
 window.Qrk_Plugins.push(TestPlugin);
-window.Qrk_Buttons.push('customButton');
