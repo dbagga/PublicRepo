@@ -1,8 +1,8 @@
 class TestPlugin extends Qrk_Plugin {
 
-   public static get pluginName() {
-		return 'TestPlugin' as const;
-	}
+  static get pluginName() {
+    return "TestPlugin"
+  }
    
    init() {
       // Register a custom command
