@@ -1,4 +1,9 @@
 class TestPlugin extends Qrk_Plugin {
+
+   public static get pluginName() {
+		return 'TestPlugin' as const;
+	}
+   
    init() {
       // Register a custom command
       this.editor.commands.add('myCustomCommand', {
