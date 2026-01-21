@@ -19,7 +19,8 @@ class TestPlugin extends Qrk_Plugin {
          view.set({
            label: 'Custom Button',
            withText: true,
-           tooltip: true
+           tooltip: true,
+           class: 'tbi-customButton'
          });
 
         // Execute command when the button is clicked
