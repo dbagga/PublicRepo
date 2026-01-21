@@ -13,7 +13,7 @@ class TestPlugin extends Qrk_Plugin {
             this.editor.model.change((writer) => {
                 // Insert the text at the user's current position.
                 this.editor.model.insertContent(writer.createText(now.toString()));
-                this.editor.focus():
+                this.editor.focus();
          });
         }
       });
